@@ -1,0 +1,9 @@
+name: http-signatures-crystal
+version: 0.1.0
+
+authors:
+  - wealth <yukai@pm.me>
+
+crystal: 0.31.1
+
+license: MIT
