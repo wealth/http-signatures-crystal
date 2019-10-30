@@ -1,4 +1,4 @@
-# http-signatures-crystal
+# http_signatures
 
 Copy of (https://github.com/99designs/http-signatures-ruby) ported to Crystal. Some specs omitted, but should generally work.
 
@@ -6,18 +6,18 @@ Copy of (https://github.com/99designs/http-signatures-ruby) ported to Crystal. S
 
 1. Add the dependency to your `shard.yml`:
 
-   ```yaml
-   dependencies:
-     http-signatures-crystal:
-       github: wealth/http-signatures-crystal
-   ```
+  ```yaml
+  dependencies:
+    http_signatures:
+      github: wealth/http-signatures-crystal
+  ```
 
 2. Run `shards install`
 
 ## Usage
 
 ```crystal
-require "http-signatures-crystal"
+require "http_signatures"
 
 context = HttpSignatures::Context.new(
   keys: {"examplekey" => "secret-key-here"},
