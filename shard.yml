@@ -1,9 +1,9 @@
 name: http_signatures
-version: 0.1.0
+version: 0.1.1
 
 authors:
   - wealth <yukai@pm.me>
 
-crystal: 0.31.1
+crystal: 1.1.1
 
 license: MIT
